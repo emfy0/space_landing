@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  background-color: rgb(19, 19, 19);
+  color: whitesmoke;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin-top: 10px;
+  margin-left: 10vw;
+}
+
+.icon_wrapper {
+  margin-right: 1vw;
+}
+
+.icon {
+  margin-right: 0.5vw;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
