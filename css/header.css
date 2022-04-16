@@ -17,12 +17,12 @@
   }
 }
 
-.nav-bar {
+.nav_bar {
   margin-top: 4px;
   margin-right: 10vw;
 }
 
-.nav-bar a {
+.nav_bar a {
   padding: 2px;
   border: solid black;
   border-radius: 20px;
@@ -34,18 +34,18 @@
 }
 
 @media (max-width: 630px) {
-  .nav-bar {
+  .nav_bar {
     margin-top: 4px;
     margin-right: 0;
   }
-  .nav-bar a {
+  .nav_bar a {
     justify-self: center;
     margin: 0;
     font-size: 1.25rem;
   }
 }
 
-.nav-bar a:hover {
+.nav_bar a:hover {
   border: solid white;
 }
 

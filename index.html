@@ -14,14 +14,17 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/purchase.css">
 
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="parallax.js-1.5.0/parallax.min.js"></script>
+
   <title>Landing</title>
 </head>
 
 <body>
-  <div class="content">
+  <div class="content" data-parallax="scroll" data-image-src="/img/space.jpg" speed="0.05">
     <div class="header">
       <img class="logo_img" src="img/SpaceX.png" alt="Лого компании">
-      <nav class="nav-bar">
+      <nav class="nav_bar">
         <a href="#peculiarities">О нас</a>
         <a href="#gallery">Галерея</a>
         <a href="#buy">Купить</a>
@@ -30,10 +33,10 @@
     <div id="intro">
       <div class="container">
         <div class="grid_2to3">
-          <h1 class="text-center align_self_center very_large_text">
+          <h1 class="text_center align_self_center very_large_text">
             НЕЗАБЫВАЕМОЕ ПУТЕШЕСТВИЕ НА МАРС
           </h1>
-          <img class="intro_image_wrapper" src="img/Mars.jpg" alt="Фотография Марса">
+          <img class="intro_image_wrapper" src="img/Mars.png" alt="Фотография Марса">
         </div>
       </div>
     </div>
@@ -41,7 +44,7 @@
     <div id="peculiarities">
       <div class="container">
         <h2 class="very_large_text">ПОЧЕМУ МЫ?</h2>
-        <div class="grid_1to1to1 text-center top_margin">
+        <div class="grid_1to1to1 text_center top_margin">
           <div>
               <img class="peculiarities_img" src="./img/first.png" alt="Иконка первая компания на рынке">
             <h3>
